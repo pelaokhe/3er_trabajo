@@ -13,3 +13,9 @@ body{
 
 ul.ok { list-style-image: url("imagenes/iconOK.png" );
 text-align:left;}
+
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
